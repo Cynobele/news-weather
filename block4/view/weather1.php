@@ -19,7 +19,7 @@
         <br/><!--simple way to get some space -->     
 
   	    <?php 
-            $api = "cfe8a8e84fe41d56f58c27e07da942c6" ;
+            $api = "<!-- OPENWEATHERMAP API KEY HERE -->" ;
   		    $url = "https://api.openweathermap.org/data/2.5/weather?q=Livingston,uk&appid=".$api."&mode=xml" ;
   		    // $url = "../model/weather/london-weather.xml" ;
   		    $xmltxt = file_get_contents($url); 
